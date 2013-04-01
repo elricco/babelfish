@@ -6,14 +6,12 @@ Dummy AddOn für REDAXO 4
 Features
 --------
 
-* foo
-* bar
-* batz
+<Features>
 
 Hinweise
 --------
 
-* Läuft nur mit REDAXO 4.5+
+* Getestet mir REDAXO 4.5
 * AddOn-Ordner lautet: `dummy`
 
 Changelog
@@ -28,4 +26,6 @@ siehe [LICENSE.md](LICENSE.md)
 
 Credits
 -------
+
+<Credits>
 
