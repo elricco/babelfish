@@ -3,7 +3,7 @@
 $REX['ADDON']['name']['dummy'] = 'Dummy';
 $REX['ADDON']['page']['dummy'] = 'dummy';
 $REX['ADDON']['version']['dummy'] = '1.0.0';
-$REX['ADDON']['author']['dummy'] = "WebDevOne";
+$REX['ADDON']['author']['dummy'] = '<author>';
 $REX['ADDON']['supportpage']['dummy'] = 'forum.redaxo.de';
 $REX['ADDON']['perm']['dummy'] = 'dummy[]';
 
