@@ -1,4 +1,4 @@
 <?php
 // --- DYN
-$REX['ADDON']['dummy']['settings']['dummy'] = true;
+$REX['ADDON']['dummy']['settings']['foo'] = "bar";
 // --- /DYN

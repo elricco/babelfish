@@ -1,12 +1,32 @@
 Dummy AddOn für REDAXO 4
 ========================
 
-<Beschreibungstext>
+AddOn Beschreibungstext
 
 Features
 --------
 
-<Features>
+* AddOn Vorlage für eigene AddOns
+* Patentierte X-Step SmartSetup(TM) Technologie
+* Hile Section inkl. automatisch geparster Readme, Changelog und License
+
+Eigenes AddOn draus machen
+--------------------------
+
+* Alle kleingeschriebenen `dummy` in jeder Datei ersetzen durch eigenen AddOn-Key, z.B. `my_addon`
+* Alle großgeschriebenen `Dummy` in jeder Datei  ersetzen durch eigenen AddOn-Namen, z.B. `Mein AddOn`
+* Readme, Changelog und Lizenz anpassen
+* Setup und/oder Einstellungen anpassen oder entfernen usw.
+
+Codebeispiel
+------------
+
+```php
+<?php
+// output something
+echo foo();
+?>
+```
 
 Hinweise
 --------
@@ -27,5 +47,4 @@ siehe [LICENSE.md](LICENSE.md)
 Credits
 -------
 
-<Credits>
-
+* Parsedown Class by Emanuil Rusev

@@ -1,4 +1,22 @@
-dummy_addon_help = 
+dummy_addon_help = <Kurze AddOn Beschreibung für die AddOn-Verwaltung von REDAXO.>
 dummy_settings = Einstellungen
 dummy_setup = Setup
 dummy_help = Hilfe
+
+dummy_help_chapter_readme = Readme
+dummy_help_chapter_changelog = Changelog
+dummy_help_chapter_license = Lizenz
+
+dummy_setup_step1 = Schritt 1: Mach dies
+dummy_setup_step1_desc1 = Beschreibungstext 1
+dummy_setup_step2 = Schritt 2: Mach das
+dummy_setup_step2_desc1 = Beschreibungstext 2
+dummy_setup_step3 = Schritt 3: Mach jenes
+dummy_setup_step3_desc1 = Beschreibungstext 3
+
+dummy_configfile_update = Konfiguration wurde aktualisiert!
+dummy_configfile_nosave = Konfiguration konnte nicht gespeichert werden!
+dummy_configfile_nowrite = Konfigurationsdatei "{0}" ist nicht beschreibbar!
+
+dummy_settings_foo = Foo
+dummy_settings_save = Einstellungen speichern

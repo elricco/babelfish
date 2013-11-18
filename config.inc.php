@@ -11,8 +11,8 @@ $REX['ADDON']['perm']['dummy'] = 'dummy[]';
 $REX['PERM'][] = 'dummy[]';
 
 // includes
-require($REX['INCLUDE_PATH'] . '/addons/dummy/classes/class.rex_dummy_utils.inc.php');
 require($REX['INCLUDE_PATH'] . '/addons/dummy/settings.inc.php');
+require($REX['INCLUDE_PATH'] . '/addons/dummy/classes/class.rex_dummy_utils.inc.php');
 
 if ($REX['REDAXO']) {
 	// add lang file
