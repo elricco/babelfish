@@ -19,7 +19,7 @@ if (rex_request('func', 'string') == 'update') {
 }
 
 if (!is_writable($configFile)) {
-	echo rex_warning($I18N->msg('dummy_configfile_nowrite'), $configFile);
+	echo rex_warning($I18N->msg('dummy_configfile_nowrite', $configFile));
 }
 ?>
 
