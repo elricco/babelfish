@@ -14,8 +14,8 @@ dummy_setup_step2_desc1 = Beschreibungstext 2
 dummy_setup_step3 = Schritt 3: Mach jenes
 dummy_setup_step3_desc1 = Beschreibungstext 3
 
-dummy_configfile_update = Konfiguration wurde aktualisiert!
-dummy_configfile_nosave = Konfiguration konnte nicht gespeichert werden!
+dummy_configfile_update = Einstellungen wurden gespeichert.
+dummy_configfile_nosave = Einstellungen konnten nicht gespeichert werden!
 dummy_configfile_nowrite = Konfigurationsdatei "{0}" ist nicht beschreibbar!
 
 dummy_settings_foo = Foo
