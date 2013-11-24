@@ -6,7 +6,7 @@ AddOn Beschreibungstext
 Features
 --------
 
-* AddOn Vorlage für eigene AddOns
+* Simple AddOn Vorlage für eigene AddOns
 * Patentierte X-Step SmartSetup(TM) Technologie
 * Hile Section inkl. automatisch geparster Readme, Changelog und License
 

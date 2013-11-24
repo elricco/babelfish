@@ -28,6 +28,7 @@ a.extern,
 
 #rex-page-dummy div.rex-addon-content p.rex-code {
 	margin-bottom: 22px;
+	margin-top: 3px;
 }
 
 #rex-page-dummy .addon-template h1 {
