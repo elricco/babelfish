@@ -52,29 +52,6 @@ echo '
 
 ?>
 
-<style type="text/css">
-#rex-page-dummy div.rex-addon-content p.rex-code {
-	margin-bottom: 22px;
-}
-
-#rex-page-dummy .addon-template h1 {
-	font-size: 18px;
-	margin-bottom: 7px;
-}
-
-#rex-page-dummy #subpage-help a.rex-active {
-    color: #14568A;
-}
-
-#rex-page-dummy #subpage-help div.rex-addon-content {
-    padding: 10px 12px;
-}
-
-#rex-page-dummy #subpage-help div.rex-addon-content ul {
-	margin-top: 0;
-}
-</style>
-
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 	// make external links clickable
