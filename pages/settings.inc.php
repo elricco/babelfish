@@ -33,7 +33,7 @@ if (!is_writable($configFile)) {
 			<fieldset class="rex-form-col-1">
 				<div class="rex-form-wrapper">
 					<input type="hidden" name="page" value="dummy" />
-					<input type="hidden" name="subpage" value="" /> <!-- put "settings" in here if settings page is not first page in addon menu -->
+					<input type="hidden" name="subpage" value="<?php echo rex_request('subpage'); ?>" />
 					<input type="hidden" name="func" value="update" />
 
 					<div class="rex-form-row rex-form-element-v1">
