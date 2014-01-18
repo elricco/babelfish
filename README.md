@@ -32,7 +32,7 @@ echo foo();
 Hinweise
 --------
 
-* Getestet mir REDAXO 4.5
+* Getestet mit REDAXO 4.5
 * AddOn-Ordner lautet: `dummy`
 
 Changelog
