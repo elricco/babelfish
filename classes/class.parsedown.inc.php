@@ -610,7 +610,6 @@ class Parsedown
 					break;
 
 				case 'code block':
-				case 'fenced block':
 
 					$text = htmlspecialchars($element['text'], ENT_NOQUOTES, 'UTF-8');
 
@@ -619,6 +618,18 @@ class Parsedown
 					$markup .= isset($element['language'])
 						? '<pre><code class="language-'.$element['language'].'">'.$text.'</code></pre>'
 						: '<pre><code>'.$text.'</code></pre>';
+
+					$markup .= "\n";
+
+					break;
+
+				case 'fenced block':
+
+					$text = $element['text'];
+
+					strpos($text, "\x1A\\") !== FALSE and $text = strtr($text, $this->escape_sequence_map);
+
+					$markup .= rex_highlight_string($text, true) . "\n";
 
 					$markup .= "\n";
 
