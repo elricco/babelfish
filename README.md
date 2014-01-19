@@ -31,8 +31,8 @@ Beispiel AddOns mit Dummy-Features und weitere Techniken
 * [CKEditor](https://github.com/RexDude/ckeditor)
 * [SEO42](https://github.com/RexDude/seo42)
 
-Codebeispiel
-------------
+Codebeispiele
+-------------
 
 ```php
 <?php
