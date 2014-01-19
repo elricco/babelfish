@@ -7,10 +7,10 @@ Features
 --------
 
 * Simple AddOn Vorlage für eigene AddOns
-* Patentierte X-Step SmartSetup(TM) Technologie
 * Start und Einstellungen Seite
+* Patentierte X-Step SmartSetup(TM) Technologie
 * Hile Section inkl. automatisch geparster Readme, Changelog und License
-* Anleitung
+* Umbauanleitung
 
 Anleitung um ein eigenes AddOn draus zu machen
 ----------------------------------------------
