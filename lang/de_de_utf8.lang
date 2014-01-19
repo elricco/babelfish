@@ -1,7 +1,13 @@
-dummy_addon_help = <Kurze AddOn Beschreibung für die AddOn-Verwaltung von REDAXO.>
+dummy_addon_help = 
+
+dummy_start = Start
 dummy_settings = Einstellungen
 dummy_setup = Setup
 dummy_help = Hilfe
+
+dummy_start_title = Dummy für REDAXO
+dummy_start_example_link_internal = Interner Beispiellink
+dummy_start_example_link_external = Externer Beispiellink
 
 dummy_help_chapter_readme = Readme
 dummy_help_chapter_changelog = Changelog

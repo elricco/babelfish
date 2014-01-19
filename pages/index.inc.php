@@ -5,7 +5,7 @@ $subpage = rex_request('subpage', 'string');
 
 // if no subpage specified, use this one
 if ($subpage == '') {
-	$subpage = 'settings';
+	$subpage = 'start';
 }
 
 // layout top
@@ -51,6 +51,12 @@ a.extern,
 #rex-page-dummy .rex-code {
 	overflow: auto;
 	white-space: nowrap;
+}
+
+#rex-page-dummy p.logo {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 15px;
 }
 </style>
 

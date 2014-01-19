@@ -20,7 +20,8 @@ if ($REX['REDAXO']) {
 
 	// add subpages
 	$REX['ADDON']['dummy']['SUBPAGES'] = array(
-		array('', $I18N->msg('dummy_settings')),
+		array('', $I18N->msg('dummy_start')),
+		array('settings', $I18N->msg('dummy_settings')),
 		array('setup', $I18N->msg('dummy_setup')),
 		array('help', $I18N->msg('dummy_help'))
 	);
