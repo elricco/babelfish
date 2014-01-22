@@ -27,9 +27,9 @@ Anleitung um ein eigenes AddOn draus zu machen
 Beispiel AddOns mit Dummy-Features und weitere Techniken
 --------------------------------------------------------
 
-* [Magnific Popup](https://github.com/RexDude/magnific_popup)
-* [CKEditor](https://github.com/RexDude/ckeditor)
-* [SEO42](https://github.com/RexDude/seo42)
+* [Magnific Popup](https://github.com/RexDude/magnific_popup) (Startseite, Modul-Installation)
+* [SEO42](https://github.com/RexDude/seo42) (Start, Setup, Tools, Erweitere Hilfe)
+* [Backend Utilities](https://github.com/RexDude/be_utilities) (Container für Plugins)
 
 Codebeispiele
 -------------
