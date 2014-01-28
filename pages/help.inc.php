@@ -7,14 +7,14 @@ $func = rex_request('func', 'string');
 
 // include markdwon parser
 if (!class_exists('Parsedown')) {
-	require($REX['INCLUDE_PATH'] . '/addons/dummy/classes/class.parsedown.inc.php');
+	require($REX['INCLUDE_PATH'] . '/addons/babelfish/classes/class.parsedown.inc.php');
 }
 
 // chapters
 $chapterpages = array (
-	'' => array($I18N->msg('dummy_help_chapter_readme'), 'pages/help/readme.inc.php'),
-	'changelog' => array($I18N->msg('dummy_help_chapter_changelog'), 'pages/help/changelog.inc.php'),
-	'license' => array($I18N->msg('dummy_help_chapter_license'), 'pages/help/license.inc.php'),
+	'' => array($I18N->msg('babelfish_help_chapter_readme'), 'pages/help/readme.inc.php'),
+	'changelog' => array($I18N->msg('babelfish_help_chapter_changelog'), 'pages/help/changelog.inc.php'),
+	'license' => array($I18N->msg('babelfish_help_chapter_license'), 'pages/help/license.inc.php'),
 );
 
 // build chapter navigation

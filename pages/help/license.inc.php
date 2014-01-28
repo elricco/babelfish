@@ -1,4 +1,4 @@
 <?php
 
-echo rex_dummy_utils::getHtmlFromMDFile('LICENSE.md');
+echo rex_babelfish_utils::getHtmlFromMDFile('LICENSE.md');
 

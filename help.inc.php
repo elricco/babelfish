@@ -1,2 +1,2 @@
-<?php echo $I18N->msg('dummy_addon_help'); ?>
+<?php echo $I18N->msg('babelfish_addon_help'); ?>
 <br />

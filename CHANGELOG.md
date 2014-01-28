@@ -1,5 +1,5 @@
-Dummy - Changelog
-=================
+Babelfish - Changelog
+=====================
 
 ### Version 1.0.0 - 01. Januar 2014
 

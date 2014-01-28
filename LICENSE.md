@@ -1,5 +1,5 @@
-Dummy - MIT Lizenz
-==================
+Babelfish - MIT Lizenz
+======================
 
 Copyright (c) <year> <copyright holders>
 

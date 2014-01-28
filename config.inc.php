@@ -1,29 +1,29 @@
 <?php
 // init addon
-$REX['ADDON']['name']['dummy'] = 'Dummy';
-$REX['ADDON']['page']['dummy'] = 'dummy';
-$REX['ADDON']['version']['dummy'] = '1.0.0';
-$REX['ADDON']['author']['dummy'] = '<author>';
-$REX['ADDON']['supportpage']['dummy'] = 'forum.redaxo.de';
-$REX['ADDON']['perm']['dummy'] = 'dummy[]';
+$REX['ADDON']['name']['babelfish'] = 'Babelfish';
+$REX['ADDON']['page']['babelfish'] = 'babelfish';
+$REX['ADDON']['version']['babelfish'] = '1.0.0';
+$REX['ADDON']['author']['babelfish'] = '<author>';
+$REX['ADDON']['supportpage']['babelfish'] = 'forum.redaxo.de';
+$REX['ADDON']['perm']['babelfish'] = 'babelfish[]';
 
 // permissions
-$REX['PERM'][] = 'dummy[]';
+$REX['PERM'][] = 'babelfish[]';
 
 // includes
-require($REX['INCLUDE_PATH'] . '/addons/dummy/settings.inc.php');
-require($REX['INCLUDE_PATH'] . '/addons/dummy/classes/class.rex_dummy_utils.inc.php');
+require($REX['INCLUDE_PATH'] . '/addons/babelfish/settings.inc.php');
+require($REX['INCLUDE_PATH'] . '/addons/babelfish/classes/class.rex_babelfish_utils.inc.php');
 
 if ($REX['REDAXO']) {
 	// add lang file
-	$I18N->appendFile($REX['INCLUDE_PATH'] . '/addons/dummy/lang/');
+	$I18N->appendFile($REX['INCLUDE_PATH'] . '/addons/babelfish/lang/');
 
 	// add subpages
-	$REX['ADDON']['dummy']['SUBPAGES'] = array(
-		array('', $I18N->msg('dummy_start')),
-		array('settings', $I18N->msg('dummy_settings')),
-		array('setup', $I18N->msg('dummy_setup')),
-		array('help', $I18N->msg('dummy_help'))
+	$REX['ADDON']['babelfish']['SUBPAGES'] = array(
+		array('', $I18N->msg('babelfish_start')),
+		array('settings', $I18N->msg('babelfish_settings')),
+		array('setup', $I18N->msg('babelfish_setup')),
+		array('help', $I18N->msg('babelfish_help'))
 	);
 }
 ?>

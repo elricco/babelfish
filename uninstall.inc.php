@@ -1,3 +1,3 @@
 <?php
-$REX['ADDON']['install']['dummy'] = false;
+$REX['ADDON']['install']['babelfish'] = false;
 

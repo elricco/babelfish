@@ -1,28 +1,28 @@
-dummy_addon_help = 
+babelfish_addon_help = 
 
-dummy_start = Start
-dummy_settings = Einstellungen
-dummy_setup = Setup
-dummy_help = Hilfe
+babelfish_start = Start
+babelfish_settings = Einstellungen
+babelfish_setup = Setup
+babelfish_help = Hilfe
 
-dummy_start_title = Dummy für REDAXO
-dummy_start_example_link_internal = Interner Beispiellink
-dummy_start_example_link_external = Externer Beispiellink
+babelfish_start_title = Babelfish für REDAXO
+babelfish_start_example_link_internal = Interner Beispiellink
+babelfish_start_example_link_external = Externer Beispiellink
 
-dummy_help_chapter_readme = Readme
-dummy_help_chapter_changelog = Changelog
-dummy_help_chapter_license = Lizenz
+babelfish_help_chapter_readme = Readme
+babelfish_help_chapter_changelog = Changelog
+babelfish_help_chapter_license = Lizenz
 
-dummy_setup_step1 = Schritt 1: Mach dies
-dummy_setup_step1_desc1 = Beschreibungstext 1
-dummy_setup_step2 = Schritt 2: Mach das
-dummy_setup_step2_desc1 = Beschreibungstext 2
-dummy_setup_step3 = Schritt 3: Mach jenes
-dummy_setup_step3_desc1 = Beschreibungstext 3
+babelfish_setup_step1 = Schritt 1: Mach dies
+babelfish_setup_step1_desc1 = Beschreibungstext 1
+babelfish_setup_step2 = Schritt 2: Mach das
+babelfish_setup_step2_desc1 = Beschreibungstext 2
+babelfish_setup_step3 = Schritt 3: Mach jenes
+babelfish_setup_step3_desc1 = Beschreibungstext 3
 
-dummy_configfile_update = Einstellungen wurden gespeichert.
-dummy_configfile_nosave = Einstellungen konnten nicht gespeichert werden!
-dummy_configfile_nowrite = Konfigurationsdatei "{0}" ist nicht beschreibbar!
+babelfish_configfile_update = Einstellungen wurden gespeichert.
+babelfish_configfile_nosave = Einstellungen konnten nicht gespeichert werden!
+babelfish_configfile_nowrite = Konfigurationsdatei "{0}" ist nicht beschreibbar!
 
-dummy_settings_foo = Foo
-dummy_settings_save = Einstellungen speichern
+babelfish_settings_foo = Foo
+babelfish_settings_save = Einstellungen speichern
