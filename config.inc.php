@@ -3,8 +3,8 @@
 $REX['ADDON']['name']['babelfish'] = 'Babelfish';
 $REX['ADDON']['page']['babelfish'] = 'babelfish';
 $REX['ADDON']['version']['babelfish'] = '1.0.0';
-$REX['ADDON']['author']['babelfish'] = '<author>';
-$REX['ADDON']['supportpage']['babelfish'] = 'forum.redaxo.de';
+$REX['ADDON']['author']['babelfish'] = 'redaxo.org';
+$REX['ADDON']['supportpage']['babelfish'] = 'forum.redaxo.org';
 $REX['ADDON']['perm']['babelfish'] = 'babelfish[]';
 
 // permissions
