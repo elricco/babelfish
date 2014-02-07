@@ -679,16 +679,7 @@ class Parsedown
 
                 case 'fenced':
 
-                    $text = htmlspecialchars($block['text'], ENT_NOQUOTES, 'UTF-8');
-
-                    $markup .= '<pre><code';
-
-                    if (isset($block['language']))
-                    {
-                        $markup .= ' class="language-'.$block['language'].'"';
-                    }
-
-                    $markup .= '>'.$text.'</code></pre>'."\n";
+                    $markup .= rex_highlight_string($block['text'], true) . "\n";
 
                     break;
 
