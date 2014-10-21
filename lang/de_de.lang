@@ -20,9 +20,10 @@ babelfish_setup_step2_desc1 = Beschreibungstext 2
 babelfish_setup_step3 = Schritt 3: Mach jenes
 babelfish_setup_step3_desc1 = Beschreibungstext 3
 
-babelfish_configfile_update = Einstellungen wurden gespeichert.
-babelfish_configfile_nosave = Einstellungen konnten nicht gespeichert werden!
-babelfish_configfile_nowrite = Konfigurationsdatei "{0}" ist nicht beschreibbar!
+babelfish_config_ok = Einstellungen wurden aktualisiert.
+babelfish_config_error = Einstellungen konnte nicht gespeichert werden!
+babelfish_install_make_dir = Der Ordner "/redaxo/include/{0}/" kann nicht angelegt werden, überprüfen Sie die Schreibrechte oder legen Sie den Ordner von Hand an und geben ihm Schreibrechte.
+babelfish_install_perm_dir = Der Ordner "/redaxo/include/{0}/" benötigt Schreibrechte!
 
 babelfish_settings_foo = Foo
 babelfish_settings_save = Einstellungen speichern

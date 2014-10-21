@@ -8,6 +8,7 @@ Features
 
 * Simple AddOn Vorlage für eigene AddOns
 * Start und Einstellungen Seite
+* Settings werden in Data-Verzeichnis gespeichert
 * Patentierte X-Step SmartSetup(TM) Technologie
 * Hile Section inkl. automatisch geparster Readme, Changelog und License
 * Umbauanleitung
@@ -22,7 +23,7 @@ Anleitung um ein eigenes AddOn draus zu machen
 * Checken: In der `/pages/index.inc.php` müssen die CSS IDs mit Bindestrich sein, nicht mit Unterstrich.
 * Seiten Start, Setup und/oder Einstellungen anpassen oder entfernen usw.
 * Langfiles checken und unnötige Keys raus
-* Readme, Changelog und Lizenz sowie Author in der `config.inc.php` anpassen
+* Readme, Changelog und Lizenz (Copyright ergänzen!) sowie Author in der `config.inc.php` anpassen
 
 Beispiel AddOns mit Babelfish-Features und weitere Techniken
 ------------------------------------------------------------
@@ -44,7 +45,7 @@ echo foo();
 Hinweise
 --------
 
-* Getestet mit REDAXO 4.5
+* Getestet mit REDAXO 4.6
 * AddOn-Ordner lautet: `babelfish`
 
 Changelog

@@ -11,8 +11,15 @@ $REX['ADDON']['perm']['babelfish'] = 'babelfish[]';
 $REX['PERM'][] = 'babelfish[]';
 
 // includes
-require($REX['INCLUDE_PATH'] . '/addons/babelfish/settings.inc.php');
 require($REX['INCLUDE_PATH'] . '/addons/babelfish/classes/class.rex_babelfish_utils.inc.php');
+
+// default settings (user settings are saved in data dir!)
+$REX['ADDON']['babelfish']['settings'] = array(
+	'foo' => 'bar',
+);
+
+// overwrite default settings with user settings
+rex_babelfish_utils::includeSettingsFile();
 
 if ($REX['REDAXO']) {
 	// add lang file
