@@ -49,6 +49,19 @@ class rex_babelfish_utils {
 		}
 	}
 
+	public static function replaceSettings($settings) {
+		global $REX;
+
+		// type conversion
+		foreach ($REX['ADDON']['babelfish']['settings'] as $key => $value) {
+			if (isset($settings[$key])) {
+				$settings[$key] = self::convertVarType($value, $settings[$key]);
+			}
+		}
+
+		$REX['ADDON']['babelfish']['settings'] = array_merge((array) $REX['ADDON']['babelfish']['settings'], $settings);
+	}
+
 	public static function createDynFile($file) {
 		$fileHandle = fopen($file, 'w');
 

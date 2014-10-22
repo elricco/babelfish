@@ -7,18 +7,8 @@ $func = rex_request('func', 'string');
 // save settings
 if ($func == 'update') {
 	$settings = (array) rex_post('settings', 'array', array());
-	
-	// type conversion
-	foreach ($REX['ADDON']['babelfish']['settings'] as $key => $value) {
-		if (isset($settings[$key])) {
-			$settings[$key] = rex_babelfish_utils::convertVarType($value, $settings[$key]);
-		}
-	}
 
-	// replace settings
-	$REX['ADDON']['babelfish']['settings'] = array_merge((array) $REX['ADDON']['babelfish']['settings'], $settings);
-
-	// update settings file
+	rex_babelfish_utils::replaceSettings($settings);
 	rex_babelfish_utils::updateSettingsFile();
 }
 ?>
