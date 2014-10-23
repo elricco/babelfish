@@ -34,6 +34,14 @@ if ($func == 'update') {
 					</div>
 
 					<div class="rex-form-row rex-form-element-v1">
+						<p class="rex-form-checkbox">
+							<label for="foo2"><?php echo $I18N->msg('babelfish_settings_foo2'); ?></label>
+							<input type="hidden" name="settings[foo2]" value="0" />
+							<input type="checkbox" name="settings[foo2]" id="foo2" value="1" <?php if ($REX['ADDON']['babelfish']['settings']['foo2']) { echo 'checked="checked"'; } ?>>
+						</p>
+					</div>
+
+					<div class="rex-form-row rex-form-element-v1">
 						<p class="rex-form-submit">
 							<input type="submit" class="rex-form-submit" name="sendit" value="<?php echo $I18N->msg('babelfish_settings_save'); ?>" />
 						</p>

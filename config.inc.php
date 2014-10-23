@@ -16,6 +16,7 @@ require($REX['INCLUDE_PATH'] . '/addons/babelfish/classes/class.rex_babelfish_ut
 // default settings (user settings are saved in data dir!)
 $REX['ADDON']['babelfish']['settings'] = array(
 	'foo' => 'bar',
+	'foo2' => true,
 );
 
 // add lang file

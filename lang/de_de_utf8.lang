@@ -26,4 +26,5 @@ babelfish_install_make_dir = Der Ordner "/redaxo/include/{0}/" kann nicht angele
 babelfish_install_perm_dir = Der Ordner "/redaxo/include/{0}/" benötigt Schreibrechte!
 
 babelfish_settings_foo = Foo
+babelfish_settings_foo2 = Foo2
 babelfish_settings_save = Einstellungen speichern
