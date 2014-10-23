@@ -3,7 +3,7 @@ Babelfish - Changelog
 
 ### Version 1.1.0 - 21. Oktober 2014
 
-* Einstellungen werden jetzt in Data-Verzeichnis gespeichert
+* Updatefähigkeit für REDAXO 4.6 hergestellt. Einstellungen werden jetzt im Data-Ordner gespeichert.
 
 ### Version 1.0.0 - 01. Januar 2014
 
