@@ -28,8 +28,8 @@ if ($func == 'update') {
 
 					<div class="rex-form-row rex-form-element-v1">
 						<p class="rex-form-text">
-							<label for="settings-foo"><?php echo $I18N->msg('babelfish_settings_foo'); ?></label>
-							<input type="text" value="<?php echo $REX['ADDON']['babelfish']['settings']['foo']; ?>" name="settings[foo]" id="settings-foo" class="rex-form-text">
+							<label for="foo"><?php echo $I18N->msg('babelfish_settings_foo'); ?></label>
+							<input type="text" value="<?php echo $REX['ADDON']['babelfish']['settings']['foo']; ?>" name="settings[foo]" id="foo" class="rex-form-text">
 						</p>
 					</div>
 
