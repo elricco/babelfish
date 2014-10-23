@@ -18,13 +18,15 @@ $REX['ADDON']['babelfish']['settings'] = array(
 	'foo' => 'bar',
 );
 
+// add lang file
+if ($REX['REDAXO']) {
+	$I18N->appendFile($REX['INCLUDE_PATH'] . '/addons/babelfish/lang/');
+}
+
 // overwrite default settings with user settings
 rex_babelfish_utils::includeSettingsFile();
 
 if ($REX['REDAXO']) {
-	// add lang file
-	$I18N->appendFile($REX['INCLUDE_PATH'] . '/addons/babelfish/lang/');
-
 	// add subpages
 	$REX['ADDON']['babelfish']['SUBPAGES'] = array(
 		array('', $I18N->msg('babelfish_start')),

@@ -27,7 +27,9 @@ class rex_babelfish_utils {
 		$msg = self::checkDirForFile($settingsFile);
 
 		if ($msg != '') {
-			echo rex_warning($msg);			
+			if ($REX['REDAXO']) {
+				echo rex_warning($msg);			
+			}
 		} else {
 			if (!file_exists($settingsFile)) {
 				self::createDynFile($settingsFile);
@@ -40,11 +42,13 @@ class rex_babelfish_utils {
 			}
 
 			if (rex_put_file_contents($settingsFile, $content)) {
-				if ($showSuccessMsg) {
+				if ($REX['REDAXO'] && $showSuccessMsg) {
 					echo rex_info($I18N->msg('babelfish_config_ok'));
 				}
 			} else {
-				echo rex_warning($I18N->msg('babelfish_config_error'));
+				if ($REX['REDAXO']) {
+					echo rex_warning($I18N->msg('babelfish_config_error'));
+				}
 			}
 		}
 	}
@@ -82,9 +86,13 @@ class rex_babelfish_utils {
 		}
 
 		if (!@is_dir($path)) {
-			return $I18N->msg('babelfish_install_make_dir', $dir);
+			if ($REX['REDAXO']) {
+				return $I18N->msg('babelfish_install_make_dir', $dir);
+			}
 		} elseif (!@is_writable($path . '/.')) {
-			return $I18N->msg('babelfish_install_perm_dir', $dir);
+			if ($REX['REDAXO']) {
+				return $I18N->msg('babelfish_install_perm_dir', $dir);
+			}
 		}
 		
 		return '';
