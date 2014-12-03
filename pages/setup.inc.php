@@ -19,8 +19,3 @@
 	</div>
 </div>
 
-<style type="text/css">
-#rex-page-resource-includer .info-msg {
-	margin-bottom: 10px;
-}
-</style>
