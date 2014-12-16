@@ -130,7 +130,7 @@ class rex_babelfish_utils {
 		}
 	}
 
-	public static function getHtmlFromMDFile($mdFile, $search = array(), $replace = array()) {
+	public static function getHtmlFromMDFile($mdFile, $search = array(), $replace = array(), $setBreaksEnabled = true) {
 		global $REX;
 
 		$curLocale = strtolower($REX['LANG']);
@@ -146,7 +146,15 @@ class rex_babelfish_utils {
 			$md = str_replace($search, $replace, $md);
 			$md = self::makeHeadlinePretty($md);
 
-			return Parsedown::instance()->parse($md);
+			if (method_exists('Parsedown', 'set_breaks_enabled')) {
+				$out = Parsedown::instance()->set_breaks_enabled($setBreaksEnabled)->parse($md);
+			} elseif (method_exists('Parsedown', 'setBreaksEnabled')) {
+				$out = Parsedown::instance()->setBreaksEnabled($setBreaksEnabled)->parse($md);
+			} else {
+				$out = Parsedown::instance()->parse($md);
+			}
+
+			return $out;
 		} else {
 			return '[translate:' . $file . ']';
 		}
