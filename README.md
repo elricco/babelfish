@@ -9,8 +9,8 @@ Features
 * Simple AddOn Vorlage für eigene AddOns
 * Start und Einstellungen Seite
 * Settings werden in Data-Verzeichnis gespeichert
-* Patentierte X-Step SmartSetup(TM) Technologie
-* Hile Section inkl. automatisch geparster Readme, Changelog und License
+* Patentierte X-Step SmartSetup(TM) Technologie ;)
+* Hilfe Section inkl. automatisch geparster Readme, Changelog und License
 * Umbauanleitung
 
 Anleitung um ein eigenes AddOn draus zu machen
