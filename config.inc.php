@@ -35,5 +35,10 @@ if ($REX['REDAXO']) {
 		array('setup', $I18N->msg('babelfish_setup')),
 		array('help', $I18N->msg('babelfish_help'))
 	);
+
+	// add css/js files to page header
+	if (rex_request('page') == 'babelfish') {
+		rex_register_extension('PAGE_HEADER', 'rex_babelfish_utils::appendToPageHeader');
+	}
 }
 ?>

@@ -1,5 +1,26 @@
 <?php
 class rex_babelfish_utils {
+	public static function appendToPageHeader($params) {
+		global $REX;
+
+		$insert = '<!-- BEGIN babelfish -->' . PHP_EOL;
+		$insert .= '<link rel="stylesheet" type="text/css" href="../' . self::getMediaAddonDir() . '/babelfish/backend.css" />' . PHP_EOL;
+		$insert .= '<!-- END babelfish -->';
+	
+		return $params['subject'] . PHP_EOL . $insert;
+	}
+
+	public static function getMediaAddonDir() {
+		global $REX;
+
+		// check for media addon dir var introduced in REX 4.5
+		if (isset($REX['MEDIA_ADDON_DIR'])) {
+			return $REX['MEDIA_ADDON_DIR'];
+		} else {
+			return 'files/addons';
+		}
+	}
+
 	public static function getSettingsFile() {
 		global $REX;
 
