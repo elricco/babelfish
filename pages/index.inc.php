@@ -16,9 +16,7 @@ rex_title($REX['ADDON']['name']['babelfish'] . ' <span style="font-size:14px; co
 
 // include subpage
 include($REX['INCLUDE_PATH'] . '/addons/babelfish/pages/' . $subpage . '.inc.php');
-?>
 
-<?php 
 // layout bottom
 require($REX['INCLUDE_PATH'] . '/layout/bottom.php');
 ?>
