@@ -21,12 +21,14 @@ class rex_babelfish_utils {
 		}
 	}
 
-	public static function getSettingsFile() {
+	public static function getDataAddonDir() {
 		global $REX;
 
-		$dataDir = $REX['INCLUDE_PATH'] . '/data/addons/babelfish/';
+		return $REX['INCLUDE_PATH'] . '/data/addons/babelfish/';
+	}
 
-		return $dataDir . 'settings.inc.php';
+	public static function getSettingsFile() {
+		return self::getDataAddonDir() . 'settings.inc.php';
 	}
 
 	public static function includeSettingsFile() {
@@ -149,6 +151,18 @@ class rex_babelfish_utils {
 				return $newValue;
 				
 		}
+	}
+
+	public static function rrmdir($dir) { // removes all subdirs and files recursively
+		foreach(glob($dir . '/*') as $file) {
+		    if (is_dir($file)) {
+		        self::rrmdir($file);
+			} else {
+		        unlink($file);
+			}
+		}
+
+		rmdir($dir);
 	}
 
 	public static function getHtmlFromMDFile($mdFile, $search = array(), $replace = array(), $setBreaksEnabled = true) {
