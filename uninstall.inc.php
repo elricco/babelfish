@@ -1,7 +1,6 @@
 <?php
 // delete data addon dir
-$dataDir = rex_babelfish_utils::getDataAddonDir();
-rex_babelfish_utils::rrmdir($dataDir);
+rex_babelfish_utils::removeDataAddonDir();
 
 $REX['ADDON']['install']['babelfish'] = false;
 

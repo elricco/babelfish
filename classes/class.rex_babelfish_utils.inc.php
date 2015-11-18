@@ -165,6 +165,11 @@ class rex_babelfish_utils {
 		rmdir($dir);
 	}
 
+	public static function removeDataAddonDir() {
+		$dataAddonDir = self::getDataAddonDir();
+		self::rrmdir($dataAddonDir);
+	}
+
 	public static function getHtmlFromMDFile($mdFile, $search = array(), $replace = array(), $setBreaksEnabled = true) {
 		global $REX;
 
