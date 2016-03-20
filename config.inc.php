@@ -16,7 +16,7 @@ if ($REX['REDAXO']) {
 }
 
 // includes
-require($REX['INCLUDE_PATH'] . '/addons/babelfish/classes/class.rex_babelfish_utils.inc.php');
+require($REX['INCLUDE_PATH'] . '/addons/babelfish/classes/class.babelfish_utils.inc.php');
 
 // default settings (user settings are saved in data dir!)
 $REX['ADDON']['babelfish']['settings'] = array(
@@ -25,7 +25,7 @@ $REX['ADDON']['babelfish']['settings'] = array(
 );
 
 // overwrite default settings with user settings
-rex_babelfish_utils::includeSettingsFile();
+babelfish_utils::includeSettingsFile();
 
 if ($REX['REDAXO']) {
   // add subpages
@@ -38,7 +38,7 @@ if ($REX['REDAXO']) {
 
   // add css/js files to page header
   if (rex_request('page') == 'babelfish') {
-    rex_register_extension('PAGE_HEADER', 'rex_babelfish_utils::appendToPageHeader');
+    rex_register_extension('PAGE_HEADER', 'babelfish_utils::appendToPageHeader');
   }
 }
 ?>

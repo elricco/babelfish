@@ -1,5 +1,5 @@
 <?php
-class rex_babelfish_utils {
+class babelfish_utils {
 	public static function appendToPageHeader($params) {
 		global $REX;
 

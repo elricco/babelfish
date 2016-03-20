@@ -8,8 +8,8 @@ $func = rex_request('func', 'string');
 if ($func == 'update') {
 	$settings = (array) rex_post('settings', 'array', array());
 
-	rex_babelfish_utils::replaceSettings($settings);
-	rex_babelfish_utils::updateSettingsFile();
+	babelfish_utils::replaceSettings($settings);
+	babelfish_utils::updateSettingsFile();
 }
 ?>
 

@@ -19,7 +19,7 @@ Anleitung um ein eigenes AddOn draus zu machen
 * Sinnvollen AddOn Name überlegen, gerne ohne Rex-Prefix ;)
 * Alle kleingeschriebenen `babelfish` in jeder Datei ersetzen durch eigenen AddOn-Key, z.B. `my_addon`
 * Alle großgeschriebenen `Babelfish` in jeder Datei  ersetzen durch eigenen AddOn-Namen, z.B. `Mein AddOn`
-* Statische Helferklasse `class.rex_babelfish_utils.inc.php` umbenennen (`babelfish` durch AddOn-Key ersetzen).
+* Statische Helferklasse `class.babelfish_utils.inc.php` umbenennen (`babelfish` durch AddOn-Key ersetzen).
 * Checken: In der `/files/backend.css` müssen die CSS IDs mit Bindestrich sein, nicht mit Unterstrich.
 * Seiten Start, Setup und/oder Einstellungen anpassen oder entfernen usw.
 * Langfiles checken und unnötige Keys raus
